@@ -1,0 +1,9 @@
+Reset password:
+https://docs.djangoproject.com/en/1.7/_modules/django/contrib/auth/views/
+https://docs.djangoproject.com/en/1.7/_modules/django/contrib/auth/forms/
+
+brute force protection:
+https://pypi.python.org/pypi/django-axes/
+
+avatar:
+http://django-avatar.readthedocs.org/en/latest/

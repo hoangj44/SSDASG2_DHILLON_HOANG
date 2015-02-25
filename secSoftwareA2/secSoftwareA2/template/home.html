@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+  <h1 align = center>DHILLON AND HOANG TECHNOLOGIES</h1>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+		<div class="col-md-4 col-md-offset-4">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title"> Welcome {{user.username}} </h3>
+            {% load avatar_tags %}
+            {% avatar user 65 %}
+			 	</div>
+			  	<div class="panel-body">
+
+    <a href="/update">Update</a><br>
+    <a href="/logout">Logout</a>
+</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
